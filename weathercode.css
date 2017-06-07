@@ -1,0 +1,135 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1484856299450-fb14549bca50?dpr=1&auto=compress,format&fit=crop&w=1920&h=1080&q=80&cs=tinysrgb&crop=&bg=);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    font-family: Questrial;
+
+}
+
+.title1{
+    color:black;
+    font-family: Questrial;
+    width:30vw;
+    margin-left:480px;
+    margin-top:200px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    font-size:20px;
+    background-color: rgba(211, 211, 232,0.5);
+    
+    
+    
+}
+
+.bar{
+    background-color: white;
+    background-blend-mode:difference;
+    margin-top:0px;
+    color:black;
+    width: 250px;
+    height: 20px;
+    font-family: Questrial;
+    
+}
+
+.click{
+   background-color: rgba(211, 211, 232, 0.8);
+    width:254px;
+    height:20px;
+    border:0;
+    border-left:5px
+}
+
+.weather-post{
+    font-family: Questrial;
+    font-size: 30px;
+    background-color:rgba(0, 0, 0, 0.30);
+    color:white;
+    height:620px;
+    width:1400px;;
+    display:none;
+    
+}
+
+.title1{
+    display:grid ;
+}
+
+.location{
+    font-size:40px;
+    text-decoration: underline;
+    margin-left:60px;
+    margin-top:40px;
+    font-variant:small-caps;
+    color:white;
+    font-weight:lighter;
+    width:300px
+}
+
+.placae{
+    width:300px; 
+    margin-top:200px;
+    background-color:rgba(0, 0, 0, 0.40);
+    font-size:25px;
+    font-weight: lighter;
+    
+    
+}
+
+.daily{
+  height:40px;
+    margin-top: 15px;
+}
+
+.far{
+    margin-top:5px;
+    display:flex;
+}
+
+.daily,.low,.high,.rain,.humidity,.wind,.visibility{
+    display:grid;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height:40px;
+    margin:3px;
+}
+
+.weekly{
+    width:400px;
+    margin-top:200px;
+    background-color:rgba(0, 0, 0, 0.45);
+    margin-left:150px;
+    font-size: 40px;
+}
+
+.weather-bar-post{
+    display:;
+    height:15px;
+  
+    
+}
+
+.clickr-post{
+    height:21px;
+    width:22px;
+}
+
+.bars{
+  position:absolute;  
+   display:flex;
+}
+
+.fa fa-sun-o,.fa fa-cloud,.fa fa-snowflake-o{
+    
+    margin-left:55px;
+    font-size: 120px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        
+    }
+}
